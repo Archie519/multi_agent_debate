@@ -1,0 +1,7 @@
+transformers
+sentencepiece
+graphviz
+python-dotenv
+
+pip install graphviz
+sudo apt install graphviz

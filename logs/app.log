@@ -1,0 +1,61 @@
+import logging
+
+# Configure logging
+logging.basicConfig(
+    filename='app.log',           # Log file name
+    level=logging.INFO,           # Logging level
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+# Sample log messages
+logging.info("Application started")
+logging.warning("This is a warning message")
+logging.error("An error occurred")
+2025-06-29 14:13:10,670 - INFO - Application started
+2025-07-06 00:08:08,799 - INFO - Application started
+2025-07-06 00:32:58,118 - INFO - Application started
+2025-07-06 00:45:11,732 - INFO - Application started
+2025-07-06 12:33:46,114 - INFO - Application started
+2025-07-06 12:36:01,479 - INFO - Application started
+2025-07-06 12:39:06,436 - INFO - Application started
+2025-07-06 12:48:37,861 - INFO - Application started
+2025-07-06 15:03:38,136 - INFO - Application started
+2025-07-06 15:22:43,801 - WARNING - Error while downloading from https://cdn-lfs.hf.co/repos/2e/3a/2e3a78ac75bfe23c7017cb7792215cef508b32914302fce14d30c8b3b95f46fd/608af9d4e3a0fce805f3688d17b51630279929675ec3ed23ac3a3a1a4c963c4c?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1751798010&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTc5ODAxMH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy8yZS8zYS8yZTNhNzhhYzc1YmZlMjNjNzAxN2NiNzc5MjIxNWNlZjUwOGIzMjkxNDMwMmZjZTE0ZDMwYzhiM2I5NWY0NmZkLzYwOGFmOWQ0ZTNhMGZjZTgwNWYzNjg4ZDE3YjUxNjMwMjc5OTI5Njc1ZWMzZWQyM2FjM2EzYTFhNGM5NjNjNGM%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=pHyc2iYF624TIeYxXMQR9PyiCHNtV8IE5Z44vddNP5yZsANW%7EfpAwvs9BzymG74TkOcA8Z%7E5xGphFDloRbPUcJeLOuiaT6tPwUh2uXl9lCDf13%7EZp00FhZmeJ5GdEL6siaKk33v0FZH7oPnJNxN1zS9QTG7S0XV2FFfcNBDjrvw8-7sqvuwyqWUDfRmqVwGXTRCJ-ffFbzVAfwsJFHhTxeBDGzi8BoLlfFJHmgpfxvcXCFTqYznMuGQDQaGwDN7X-8ICGOYsSycUdQp4k7%7EoOzlPvbbo0exU3oolEnXf56svuhj8gWF8lizL-dN3SW77AcTKc-z7j4AUElDjfVepKQ__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-07-06 16:05:25,456 - INFO - Application started
+2025-07-06 16:15:14,929 - INFO - Application started
+2025-07-06 16:23:17,649 - INFO - Application started
+2025-07-06 16:29:24,702 - INFO - Application started
+2025-07-06 16:32:04,186 - INFO - Application started
+2025-07-06 16:33:28,360 - INFO - Application started
+2025-07-06 16:34:33,055 - INFO - Application started
+2025-07-06 16:37:54,400 - INFO - Application started
+2025-07-06 16:40:59,154 - INFO - Application started
+2025-07-06 16:43:28,282 - INFO - Application started
+2025-07-06 17:30:02,296 - INFO - Application started
+2025-07-06 17:33:04,065 - INFO - Application started
+2025-07-06 17:36:51,751 - INFO - Application started
+2025-07-06 17:40:27,840 - INFO - Application started
+2025-07-06 17:45:54,889 - INFO - Application started
+2025-07-06 17:52:13,642 - INFO - Application started
+2025-07-06 17:56:58,623 - INFO - Application started
+2025-07-06 17:59:09,424 - INFO - Application started
+2025-07-06 18:03:24,589 - INFO - Application started
+2025-07-06 18:09:28,367 - INFO - Application started
+2025-07-06 18:12:17,125 - INFO - Application started
+2025-07-06 21:24:51,809 - INFO - Application started
+2025-07-06 21:40:08,248 - INFO - Application started
+2025-07-06 21:47:50,561 - INFO - Application started
+2025-07-06 21:54:54,422 - INFO - Application started
+2025-07-06 22:06:36,405 - INFO - Application started
+2025-07-06 22:09:52,514 - INFO - Application started
+2025-07-06 22:13:37,356 - INFO - Application started
+2025-07-06 22:17:21,677 - INFO - Application started
+2025-07-06 22:18:22,128 - INFO - Application started
+2025-07-06 22:21:35,433 - INFO - Application started
+2025-07-06 22:27:10,936 - INFO - Application started
+2025-07-06 22:34:47,245 - INFO - Application started
+2025-07-06 22:38:32,889 - INFO - Application started
+2025-07-06 22:43:06,900 - INFO - Application started
+2025-07-06 22:45:17,609 - INFO - Application started
+2025-07-06 22:48:43,452 - INFO - Application started

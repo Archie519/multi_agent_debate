@@ -1,0 +1,24 @@
+digraph {
+	rankdir=LR
+	UserInput
+	"Round 1: AgentA"
+	"Round 2: AgentB"
+	"Round 3: AgentA"
+	"Round 4: AgentB"
+	"Round 5: AgentA"
+	"Round 6: AgentB"
+	"Round 7: AgentA"
+	"Round 8: AgentB"
+	MemoryNode
+	JudgeNode
+	UserInput -> "Round 1":" AgentA"
+	"Round 1":" AgentA" -> "Round 2":" AgentB"
+	"Round 2":" AgentB" -> "Round 3":" AgentA"
+	"Round 3":" AgentA" -> "Round 4":" AgentB"
+	"Round 4":" AgentB" -> "Round 5":" AgentA"
+	"Round 5":" AgentA" -> "Round 6":" AgentB"
+	"Round 6":" AgentB" -> "Round 7":" AgentA"
+	"Round 7":" AgentA" -> "Round 8":" AgentB"
+	"Round 8":" AgentB" -> MemoryNode
+	MemoryNode -> JudgeNode
+}
